@@ -43,3 +43,5 @@ flowchart TD
     I --> J
 ```
 
+## 🚀 Como Executar
+
