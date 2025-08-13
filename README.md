@@ -26,4 +26,20 @@ spring-testing-demo/
 - **JUnit 5**: Framework de testes moderno e integrado ao Spring Boot.
 
 ---
+## 🔍 Fluxo de Execução dos Testes
+
+```mermaid
+flowchart TD
+    A[Início] --> B[JUnit 5 inicia execução dos testes]
+    B --> C[Carrega CalculatorService]
+    C --> D[@BeforeEach inicializa dados]
+    D --> E[Teste de soma: add(x, y)]
+    D --> F[Teste de divisão: divide(x, y)]
+    F --> G{y == 0?}
+    G -- Sim --> H[assertThrows valida exceção]
+    G -- Não --> I[Retorna resultado da divisão]
+    E --> J[Fim do teste]
+    H --> J
+    I --> J
+```
 
