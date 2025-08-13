@@ -51,3 +51,5 @@ flowchart TD
 
 ```
 
+## 📌 Exemplo de Saída
+
