@@ -33,8 +33,8 @@ flowchart TD
     A[Início] --> B[JUnit 5 inicia execução dos testes]
     B --> C[Carrega CalculatorService]
     C --> D[@BeforeEach inicializa dados]
-    D --> E[Teste de soma: add(x, y)]
-    D --> F[Teste de divisão: divide(x, y)]
+    D --> E[Teste de soma: add]
+    D --> F[Teste de divisão: divide]
     F --> G{y == 0?}
     G -- Sim --> H[assertThrows valida exceção]
     G -- Não --> I[Retorna resultado da divisão]
