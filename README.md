@@ -32,7 +32,7 @@ spring-testing-demo/
 flowchart TD
     A[Início] --> B[JUnit 5 inicia execução dos testes]
     B --> C[Carrega CalculatorService]
-    C --> D[@BeforeEach inicializa dados]
+    C --> D[BeforeEach inicializa dados]
     D --> E[Teste de soma: add]
     D --> F[Teste de divisão: divide]
     F --> G{y == 0?}
