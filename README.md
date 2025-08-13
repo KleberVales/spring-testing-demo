@@ -17,4 +17,13 @@ spring-testing-demo/
 ├── build.gradle.kts
 └── README.md
 ```
+---
+
+## ⚙️ Funcionalidades
+
+- **@BeforeEach**: Inicializa recursos antes de cada teste.
+- **assertThrows**: Valida lançamento de exceções.
+- **JUnit 5**: Framework de testes moderno e integrado ao Spring Boot.
+
+---
 
