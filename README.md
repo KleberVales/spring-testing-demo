@@ -53,3 +53,10 @@ flowchart TD
 
 ## 📌 Exemplo de Saída
 
+```vbnet
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 1 executed, 3 up-to-date
+
+```
+
